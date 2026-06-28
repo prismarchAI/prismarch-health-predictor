@@ -1,4 +1,4 @@
-const BASE_URL = "https://gouthamjayan49-dotcom-ai-health-predictor.hf.space";
+const BASE_URL = "https://gouthamjayan49-dotcom-ai-health-predictor.hf.space/api";
 
 export const api = {
   /**
