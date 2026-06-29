@@ -9,7 +9,7 @@ export default function Admin() {
 
   // 🔌 CONNECT LIVE TELEMETRY STREAM TO FASTAPI BACKEND
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/admin/telemetry')
+    fetch('https://gouthamjayan49-dotcom-ai-health-predictor.hf.space/api/admin/telemetry')
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
